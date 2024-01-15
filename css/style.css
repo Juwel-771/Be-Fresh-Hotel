@@ -107,7 +107,6 @@ nav ul li a{
 }
 
 .popular-content{
-    border: 2px solid blue;
     margin-right: 50px;
     padding: 30px;
 }
@@ -208,6 +207,15 @@ ul >li{
     .form-btn{
         width: 78%;
         margin-top: 20px;
+    }
+
+
+    /* Popular section responsive */
+    .popular{
+        margin: 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
     
 }
