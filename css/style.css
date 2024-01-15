@@ -98,6 +98,7 @@ nav ul li a{
 
 @media only screen and (max-width: 600px)  {
 
+    /* header and navbar responsive */
     header{
         margin: 0px;
     }
