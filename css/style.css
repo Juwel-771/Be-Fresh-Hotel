@@ -166,8 +166,51 @@ ul >li{
     font-weight: 400;
 }
 
+.destination-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 50px;
+    margin: 20px;
+}
 
+.destination-image-two{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    gap: 40px;
+    margin: 20px;
+}
 
+.destination-image-three{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 50px;
+    margin: 20px;
+}
+
+.img-1, .img-2,.img-3,.img-4,.img-5,.img-6,.img-7,.img-8{
+    position: relative;
+}
+
+.img-text-1,.img-text-2,.img-text-3,.img-text-4,.img-text-5,.img-text-6,.img-text-7,.img-text-8{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    font: 400;
+    transform: translate(-40%,-40%);
+    font-size: 1.5rem;
+}
+/* .img-1{
+    width: 100%;
+    padding: ;
+    background-image: url('../images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
 
 /* Mobile Responsive Section */
 
