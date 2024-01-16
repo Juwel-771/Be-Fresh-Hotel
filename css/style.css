@@ -233,7 +233,15 @@ ul >li{
     font-size: 1rem;
     font-weight: 400;
 }
-
+.chose-card{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1,2fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 .card-one{
     background: rgba(251, 181, 99, 0.05);
     border: 1px solid #FFEED9;
@@ -256,7 +264,7 @@ ul >li{
 }
 
 .card-content{
-    margin-left: 35px;
+    margin-left: 20px;
 }
 
 .chose-card img{
