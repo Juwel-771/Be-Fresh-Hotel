@@ -378,8 +378,35 @@ input[type=button]{
 /* footer section style */
 footer{
     background: rgba(19, 19, 24, 0.05);
+    text-align: center;
 }
 
+.footer-content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-title{
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-title >img{
+    width: 45px;
+    height: 45px;
+}
+.footer-paragraph{
+    width: 770px;
+    color: #5a5a5d;
+    font-size: 1 rem;
+    font-weight: 400;
+}
 
 /* Mobile Responsive Section */
 
