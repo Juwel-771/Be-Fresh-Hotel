@@ -375,6 +375,11 @@ input[type=button]{
 } */
 
 
+/* footer section style */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+
 
 /* Mobile Responsive Section */
 
