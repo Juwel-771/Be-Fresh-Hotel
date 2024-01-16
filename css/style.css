@@ -284,6 +284,39 @@ ul >li{
     font-weight: 400;
 }
 
+
+
+
+
+/* newsletter style section */
+.newsletter{
+    margin: 100px 135px;
+}
+
+.newsletter-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-form{
+    border: 2px solid #39A7FF;
+    border-radius: 16px;
+    padding: 50px;
+}
+
+.newsletter-title{
+    color: #131313;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.newslatter-details{
+    width: 350px;
+    color: #5a5a5d;
+    font-size: 1rem;
+    font-weight: 400;
+}
 /* Mobile Responsive Section */
 
 @media only screen and (max-width: 600px)  {
