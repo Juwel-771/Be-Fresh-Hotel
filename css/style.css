@@ -146,7 +146,6 @@ ul >li{
 /* Style of destination section */
 
 .destination{
-    border: 1px solid blue;
     margin: 0 135px;
 }
 
@@ -211,6 +210,71 @@ ul >li{
     background-size: cover;
     background-position: center;
 } */
+
+
+
+/* chose section style */
+.chose-section{
+    margin: 100px 135px;
+}
+
+.chose-content{
+    text-align: center;
+}
+.chose-title{
+    margin-top: 0px;
+    color: #131313;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.chose-details{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card-one{
+    background: rgba(251, 181, 99, 0.05);
+    border: 1px solid #FFEED9;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.card-two{
+    background-color: #E0F4FF;
+    border: 1px solid #39A7FF;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.card-three{
+    background-color: #EEF5FF;
+    border: 1px solid #3D3B40;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.card-content{
+    margin-left: 35px;
+}
+
+.chose-card img{
+    width: 64px;
+    height: 64px;
+}
+
+.card-content .card-title{
+    color: #131313;
+    font: 1.8rem;
+    font-weight: 800;
+}
+
+.card-content .card-details{
+    color: #5a5a5d;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 /* Mobile Responsive Section */
 
